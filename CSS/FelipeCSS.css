@@ -1,0 +1,87 @@
+/* 
+    Document   : FelipeCSS
+    Created on : 23/10/2013, 14:06:27
+    Author     : Felipe Mansano
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.centralizar
+{
+position:absolute;
+right:534px;
+width:300px;
+
+}
+
+.centralizarform
+{
+position:absolute;
+right:234px;
+width:700px;
+
+}
+
+
+.centralizartext
+{
+position:absolute;
+right:504px;
+width:-500px;
+
+}
+
+.esquerda
+{
+position:absolute;
+left:110px;
+width:300px;
+
+}
+
+.direita
+{
+position:absolute;
+right:-50px;
+width:300px;
+
+}
+
+html,
+      body {
+        height: 100%;
+        /* The html and body elements cannot have any padding or margin. */
+      }
+
+      /* Wrapper for page content to push down footer */
+      #wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -60px;
+      }
+
+      /* Set the fixed height of the footer here */
+      #push,
+      #footer {
+        height: 60px;
+      }
+      #footer {
+        background-color: #f5f5f5;
+      }
+
+      /* Lastly, apply responsive CSS fixes as necessary */
+      @media (max-width: 767px) {
+        #footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+    </style>
